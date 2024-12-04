@@ -5,19 +5,25 @@ let globalstate = {}
 let field1 = renderField({
     state: globalstate,
     id: "text1",
-    type: "text"
+    type: "text",
+    label: "text",
+    labelOnTop: true
 })
 
 let field2 = renderField({
     state: globalstate,
     id: "number1",
-    type: "number"
+    type: "number",
+    label: "number",
+    labelOnTop: true
 })
 
 let field3 = renderField({
     state: globalstate,
     id: "email1",
-    type: "email"
+    type: "email",
+    label: "email",
+    labelOnTop: true
 })
 
 let field4 = renderField({
