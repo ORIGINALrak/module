@@ -12,8 +12,13 @@ export function renderField(config) {
     }
 }
 
-function renderText(config){
+export function renderForm(config){
+    let formdiv = document.body.appendChild(document.createElement("div"))
+    formdiv.id = "formid"
+    
+}
 
+function renderText(config){
     let field = document.body.appendChild(document.createElement("div"))
     field.id = "asd1"
 
